@@ -1,21 +1,3 @@
-
-# function accum(string) {
-#   let toLower =string.toLowerCase();
-#   let newString = '';
-# 	for(let x = 0; x < toLower.length; x++){
-#         let addString = toLower[x];
-#         if(x == 0){
-#             newString += `${addString.toUpperCase()}`;
-#         } else {
-#             newString += `-${addString.toUpperCase()}`;            
-#             for(let y = 0; y < x; y++){                
-#                 newString += addString;
-#             }
-#         }
-#     }
-#     return newString;
-# }
-
 def accum(text):
     lower = text.lower()
     accum = ""
